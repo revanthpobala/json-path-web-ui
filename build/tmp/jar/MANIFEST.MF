@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Implementation-Title: json-path-web-test
+Bundle-SymbolicName: com.jayway.jsonpath.json-path-web-test
+Implementation-Version: 2.4.0
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1588886050000
+Import-Package: com.jayway.jsonpath;version="[2.4,3)",com.jayway.jsonp
+ ath.internal;version="[2.4,3)",com.jayway.jsonpath.spi.json;version="
+ [2.4,3)",com.jayway.jsonpath.web.bench;version="[2.4,3)",com.jayway.j
+ sonpath.web.resource;version="[2.4,3)",com.nebhale.jsonpath,io.gatlin
+ g.jsonpath,javax.servlet;version="[3.1,4)",javax.ws.rs;version="[2.0,
+ 3)",javax.ws.rs.core;version="[2.0,3)",net.minidev.json;version="[2.3
+ ,3)",org.boon.json;version="[0.33,1)",org.boon.json.implementation;ve
+ rsion="[0.33,1)",org.eclipse.jetty.server;version="[9.3,10)",org.ecli
+ pse.jetty.server.handler;version="[9.3,10)",org.eclipse.jetty.servlet
+ ;version="[9.3,10)",org.eclipse.jetty.webapp;version="[9.3,10)",org.g
+ lassfish.jersey.jackson;version="[2.20,3)",org.glassfish.jersey.serve
+ r;version="[2.20,3)",org.glassfish.jersey.servlet;version="[2.20,3)",
+ org.slf4j;version="[1.7,2)",scala.collection;version="[2.10,3)",scala
+ .util;version="[2.10,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.4.0.201707252008
+Main-Class: com.jayway.jsonpath.web.boot.Main
+Export-Package: com.jayway.jsonpath.web.bench;version="2.4.0",com.jayw
+ ay.jsonpath.web.boot;version="2.4.0",com.jayway.jsonpath.web.resource
+ ;version="2.4.0";uses:="javax.ws.rs,javax.ws.rs.core"
+Bundle-Version: 2.4.0
+Bundle-Name: json-path-web-test
+Created-By: 1.8.0_131 (Oracle Corporation)
+
